@@ -5,9 +5,10 @@ xmlns:h="http://java.sun.com/jsf/html"
 xmlns:ui="http://java.sun.com/jsf/facelets">
 
 <h:head>
-    <title>Formul·rio de Cadastro</title>
+    <title>Formul√°rio de Cadastro</title>
     <link rel="stylesheet" type="text/css" href="css/main.css" />
 </h:head>
+<!-- Formul√°rio de cadastro -->
 <h:body>
     <h:form>
         <h:panelGrid columns="2">
@@ -17,7 +18,7 @@ xmlns:ui="http://java.sun.com/jsf/facelets">
         </h:panelGrid>
     </h:form>
     
-    <!-- CÛdigo para exibir os nomes cadastrados -->
+    <!-- C√≥digo para exibir os nomes cadastrados -->
     <h3>Nome Cadastrado:</h3>
     <ui:repeat value="#{pessoa.nomesArmazenados}" var="nome">
         <h:outputText value="#{nome}" /><br />
